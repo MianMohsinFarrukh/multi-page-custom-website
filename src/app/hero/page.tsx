@@ -24,7 +24,7 @@ export default function Hero() {
                 </div>
                 <div className="services-grid">
                     <div className="service-card">
-                        <img src="/images/branding-icon.png" alt="Branding Icon" />
+                        <img src="/images/k1.png" alt="Branding Icon" />
                         <h2>BRANDING</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -32,7 +32,7 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className="service-card">
-                        <img src="/images/marketing-icon.png" alt="Marketing Icon" />
+                        <img src="/images/k2.png" alt="Marketing Icon" />
                         <h2>MARKETING</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -40,7 +40,7 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className="service-card">
-                        <img src="/images/development-icon.png" alt="Development Icon" />
+                        <img src="/images/k3.png" alt="Development Icon" />
                         <h2>DEVELOPMENT</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -48,7 +48,7 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className="service-card">
-                        <img src="/images/design-icon.png" alt="Design Icon" />
+                        <img src="/images/k4.png" alt="Design Icon" />
                         <h2>DESIGN</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -77,7 +77,6 @@ export default function Hero() {
                     </div>
                 </div>
             </section>
-
 
             <section className="about-section">
                 <div className="about-header">
@@ -117,33 +116,33 @@ export default function Hero() {
                 </div>
             </section>
 
-            <section className="testimonial">
-      <div className="testimonial-container">
-        {/* Quote Icon */}
-        <div className="quote-icon">“</div>
+            <section className="teestimonial">
+                <div className="testimonial-container">
+                    {/* Quote Icon */}
+                    <div className="quote-icon">“</div>
 
-        {/* Testimonial Text */}
-        <p className="testimonial-text">
-          I Was Blown Away By His Creativity In Creating A Memorable Brand
-          Identity. His Design Work Has Helped Us Stand Out.
-        </p>
+                    {/* Testimonial Text */}
+                    <p className="testimonial-text">
+                        I Was Blown Away By His Creativity In Creating A Memorable Brand
+                        Identity. His Design Work Has Helped Us Stand Out.
+                    </p>
 
-        {/* Profile Image and Name */}
-        <div className="profile">
-          <img src="/images/profile.jpg" alt="Davis Jones" className="profile-img" />
-          <h3 className="profile-name">DAVIS JONES</h3>
-          <p className="profile-role">ENTREPRENEUR</p>
+                    {/* Profile Image and Name */}
+                    <div className="profile">
+                        <img src="/images/black.png" alt="Davis Jones" className="profile-img" />
+                        <h3 className="profile-name">DAVIS JONES</h3>
+                        <p className="profile-role">ENTREPRENEUR</p>
+                    </div>
+
+                    {/* Navigation Arrows */}
+                    <div className="navigation">
+                        <button className="nav-arrow">&lt;</button>
+                        <button className="nav-arrow">&gt;</button>
+                    </div>
+                </div>
+            </section>
+
         </div>
 
-        {/* Navigation Arrows */}
-        <div className="navigation">
-          <button className="nav-arrow">&lt;</button>
-          <button className="nav-arrow">&gt;</button>
-        </div>
-      </div>
-    </section>
-    
-        </div>
-
-    )
-}
+    );
+};

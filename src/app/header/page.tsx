@@ -27,11 +27,11 @@ const Header: React.FC = () => {
 
                         Home
                     </Link>
-                    <Link href="/aboutus" className="nav-link">
+                    <Link href="/pages/about" className="nav-link">
 
                         About
                     </Link>
-                    <Link href="/work" className="nav-link">
+                    <Link href="/pages/work" className="nav-link">
 
                         Work
                     </Link>

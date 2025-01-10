@@ -22,13 +22,13 @@ const Footer: React.FC = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/aboutus">About</Link>
+              <Link href="/pages/about">About</Link>
             </li>
             <li>
-              <Link href="/work">Work</Link>
+              <Link href="/pages/work">Work</Link>
             </li>
             <li>
-              <Link href="/contacts">Contact</Link>
+              <Link href="/pages/contact">Contact</Link>
             </li>
           </ul>
         </div>
